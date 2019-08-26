@@ -1,0 +1,309 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": 123,
+      "type": "管理员"
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "password": 123123,
+      "type": "管理员"
+    },
+    {
+      "id": 3,
+      "username": "visit",
+      "password": 123123,
+      "type": "访客"
+    }
+  ],
+  "tableData": [
+    {
+      "id": 1,
+      "nickName": "荣天阳",
+      "uGroup": "个人用户",
+      "phone": 17621412049,
+      "regTime": "2017-8-26",
+      "nameApprove": "待审核",
+      "cardApprove": "已认证",
+      "company": "铂渊信息",
+      "VIPtime": "2017-12-12",
+      "idState": "正常"
+    },
+    {
+      "id": 2,
+      "nickName": "荣天阳2",
+      "uGroup": "个人用户2",
+      "phone": 17621412049,
+      "regTime": "2017-8-26",
+      "nameApprove": "待审核",
+      "cardApprove": "已认证",
+      "company": "铂渊信息2",
+      "VIPtime": "2017-12-12",
+      "idState": "正常"
+    }
+  ],
+  "userState": [
+    {
+      "name": "被举报",
+      "detail": 110,
+      "hotCol": true
+    },
+    {
+      "name": "最近登录时间:",
+      "detail": "2017-08-26 17:05:05"
+    },
+    {
+      "name": "登录IP:",
+      "detail": "192.168.1.189"
+    },
+    {
+      "name": "在线时间:",
+      "detail": "12小时59分59秒"
+    },
+    {
+      "name": "账号状态:",
+      "detail": "正常"
+    }
+  ],
+  "user_message": [
+    {
+      "id": 1,
+      "u_name": "荣天阳",
+      "u_icon": "http://f.rtmpc.cn/p/b/j6URsh",
+      "userid": 123456,
+      "u_type": 3,
+      "u_phone": 15617407527,
+      "u_email": "xumengdandt@163.com",
+      "reg_time": "2017-8-26 10:55:55",
+      "act_num": 300,
+      "consume": 200,
+      "last_login": "2117-7-17 12:55:44",
+      "user_web": "www.mengdan.net.cn",
+      "acc_balance": 500,
+      "earn_balance": 200,
+      "all_balance": 1000,
+      "ali_bind": 1,
+      "real_name": "荣天阳",
+      "identity": 410185200000000000,
+      "position": "河南省登封市",
+      "posi_detail": "北环路七星小区",
+      "u_identity": "http://f.rtmpc.cn/p/p/jpOfHs"
+    },
+    {
+      "id": 2,
+      "u_name": "荣天阳2",
+      "u_icon": "http://f.rtmpc.cn/p/p/jpOfHs",
+      "userid": 1234562,
+      "u_type": 3,
+      "u_phone": 123456789,
+      "u_email": "573850993@163.com",
+      "reg_time": "2017-8-26 10:55:55",
+      "act_num": 300,
+      "consume": 200,
+      "last_login": "2117-7-17 12:55:44",
+      "user_web": "www.mengdan.net.cn",
+      "acc_balance": 500,
+      "earn_balance": 200,
+      "all_balance": 1000,
+      "ali_bind": 1,
+      "real_name": "荣天阳2",
+      "identity": 410185200000000000,
+      "position": "河南省登封市2",
+      "posi_detail": "北环路七星小区2",
+      "u_identity": "http://f.rtmpc.cn/p/b/j6URsh"
+    }
+  ],
+  "consume_detail": [
+    {
+      "con_time": "2017-9-1 15:55:55",
+      "con_pro": "什么产品",
+      "con_bill": 123456789,
+      "con_should": 3000,
+      "con_real": 2000,
+      "con_state": "已支付",
+      "remark": "无",
+      "orderNumber": "001",
+      "discount_num": 123123,
+      "order_detail": {
+        "orderNumber": "001",
+        "con_pro": "什么产品",
+        "con_bill": 123456789,
+        "con_time": "2017-9-1 15:55:55",
+        "discount_num": 753951,
+        "con_state": "已支付",
+        "cash_pay": 500,
+        "discount_pay": 0,
+        "total_pay": 500
+      }
+    },
+    {
+      "con_time": "2017-9-1 15:55:55",
+      "con_pro": "什么产2",
+      "con_bill": 987654321,
+      "con_should": 3000,
+      "con_real": 2000,
+      "con_state": "已支付2",
+      "remark": "无2",
+      "orderNumber": "002",
+      "discount_num": 123123,
+      "order_detail": {
+        "orderNumber": "002",
+        "con_pro": "什么产品2",
+        "con_bill": 987654321,
+        "con_time": "2017-9-1 15:55:55",
+        "discount_num": 123456,
+        "con_state": "已支付2",
+        "cash_pay": 600,
+        "discount_pay": 200,
+        "total_pay": 400
+      }
+    }
+  ],
+  "actList": [
+    {
+      "page": 1,
+      "actDetail": [
+        {
+          "act_id": 1,
+          "act_title": "1开源项目anyrtc见面会",
+          "act_time": "2000-12-12 12:23:23",
+          "act_state": "预约",
+          "act_data": "数据分析1",
+          "act_report": 11,
+          "act_icon": "http://f.rtmpc.cn/p/b/j6URsh"
+        },
+        {
+          "act_id": 2,
+          "act_title": "2开源项目anyrtc见面会",
+          "act_time": "2000-12-12 12:23:23",
+          "act_state": "预约",
+          "act_data": "数据分析2",
+          "act_report": 12,
+          "act_icon": "http://f.rtmpc.cn/p/p/jpOfHs"
+        },
+        {
+          "act_id": 3,
+          "act_title": "3开源项目anyrtc见面会",
+          "act_time": "2000-12-12 12:23:23",
+          "act_state": "预约",
+          "act_data": "数据分析3",
+          "act_report": 13,
+          "act_icon": "http://f.rtmpc.cn/p/b/j6URsh"
+        },
+        {
+          "act_id": 4,
+          "act_title": "4开源项目anyrtc见面会",
+          "act_time": "2000-12-12 12:23:23",
+          "act_state": "预约",
+          "act_data": "数据分析4",
+          "act_report": 14,
+          "act_icon": "http://f.rtmpc.cn/p/p/jpOfHs"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "actDetail": [
+        {
+          "act_id": 6,
+          "act_title": "6开源项目anyrtc见面会",
+          "act_time": "2000-12-12 12:23:23",
+          "act_state": "预约",
+          "act_data": "数据分析6",
+          "act_report": 16,
+          "act_icon": "http://f.rtmpc.cn/p/p/jpOfHs"
+        },
+        {
+          "act_id": 7,
+          "act_title": "7开源项目anyrtc见面会",
+          "act_time": "2000-12-12 12:23:23",
+          "act_state": "预约",
+          "act_data": "数据分析7",
+          "act_report": 17,
+          "act_icon": "http://f.rtmpc.cn/p/b/j6URsh"
+        }
+      ]
+    }
+  ],
+  "userGroup": [
+    {
+      "ordinary": [
+        {
+          "nickName": "用户No1",
+          "phone": 15511111111,
+          "userStore": 3,
+          "totalStore": 5,
+          "userFlow": 3,
+          "totalFlow": 5,
+          "userCard": 100,
+          "totalCard": 200
+        },
+        {
+          "nickName": "用户No2",
+          "phone": 15522222222,
+          "userStore": 4,
+          "totalStore": 5,
+          "userFlow": 4,
+          "totalFlow": 5,
+          "userCard": 110,
+          "totalCard": 200
+        }
+      ]
+    },
+    {
+      "profession": [
+        {
+          "nickName": "用户proNo1",
+          "phone": 16611111111,
+          "userStore": 3,
+          "totalStore": 50,
+          "userFlow": 3,
+          "totalFlow": 10,
+          "userCard": 100,
+          "totalCard": 500
+        },
+        {
+          "nickName": "用户proNo2",
+          "phone": 16622222222,
+          "userStore": 4,
+          "totalStore": 50,
+          "userFlow": 4,
+          "totalFlow": 10,
+          "userCard": 110,
+          "totalCard": 500
+        }
+      ]
+    },
+    {
+      "company": [
+        {
+          "nickName": "企业No1",
+          "phone": 17711111111,
+          "userStore": 3,
+          "totalStore": 5,
+          "userFlow": 3,
+          "totalFlow": 5,
+          "userCard": 100,
+          "totalCard": 300
+        }
+      ]
+    },
+    {
+      "company_pro": [
+        {
+          "nickName": "企业proNo1",
+          "phone": 18811111111,
+          "userStore": 3,
+          "totalStore": 50,
+          "userFlow": 3,
+          "totalFlow": 20,
+          "userCard": 100,
+          "totalCard": 1000
+        }
+      ]
+    }
+  ]
+}
