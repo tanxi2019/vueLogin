@@ -8,7 +8,7 @@
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
-    "server": "json-server mock-data.json"
+    "json": "json-server mock-data.json"
   },
   "dependencies": {
     "axios": "^0.16.2",
